@@ -33,7 +33,7 @@
         </nav>
 
         <!-- Header -->
-         <Header style="background: url(/assets/background.jpg); background-repeat: no-repeat; background-size: cover; height: 60vh;">
+         <Header id="header">
             <h3>the unChartered</h3>
             <h4>The Great Migration</h4>
          </Header>
@@ -75,35 +75,63 @@
 
                 <!-- Days section -->
                 <div class="day-section-main">
-                    <div class="day-section-outer">
-                        <div class="flex day-section-inner">
-                            <h3>> Day 1 : 9 Sep-Arrive at Nairabi</h3>
-                            <span>Lunch & Dinner</span>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt doloribus voluptatem aut?</p>
+                    <div class="accordion">
+                      <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h3>Day 1 : 9 Sep - Arrive at Nairobi</h3>
+                        <span>Lunch & Dinner</span>
+                      </div>
+                      <div class="accordion-content">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt
+                          doloribus voluptatem aut?
+                        </p>
+                      </div>
                     </div>
-                    <div class="day-section-outer">
-                        <div class="flex day-section-inner">
-                            <h3>> Day 2 : 10 Sep-Depart to Masai Mara</h3>
-                            <span>Lunch & Dinner</span>
-                        </div>
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt doloribus voluptatem aut?</p> -->
+        
+                    <div class="accordion">
+                      <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h3>Day 2 : 10 Sep - Depart to Masai Mara</h3>
+                        <span>Lunch & Dinner</span>
+                      </div>
+                      <div class="accordion-content">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt
+                          doloribus voluptatem aut?
+                        </p>
+                      </div>
                     </div>
-                    <div class="day-section-outer">
-                        <div class="flex day-section-inner">
-                            <h3>> Day 3 to 6 : 11 to 14 Sep Masai Mara Game Drive</h3>
-                            <span>Lunch & Dinner</span>
-                        </div>
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt doloribus voluptatem aut?</p> -->
+        
+                    <div class="accordion">
+                      <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h3>Day 3 to 6 : 11 to 14 Sep - Masai Mara Game Drive</h3>
+                        <span>Lunch & Dinner</span>
+                      </div>
+                      <div class="accordion-content">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt
+                          doloribus voluptatem aut?
+                        </p>
+                      </div>
                     </div>
-                    <div class="day-section-outer">
-                        <div class="flex day-section-inner">
-                            <h3>> Day 7 : 15 Sep Departure</h3>
-                            <span>Lunch & Dinner</span>
-                        </div>
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt doloribus voluptatem aut?</p> -->
+        
+                    <div class="accordion">
+                      <div class="accordion-header" onclick="toggleAccordion(this)">
+                        <h3>Day 7 : 15 Sep - Departure</h3>
+                        <span>Lunch & Dinner</span>
+                      </div>
+                      <div class="accordion-content">
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Iusto, odit magnam. Rem voluptas optio ipsum laudantium sunt
+                          doloribus voluptatem aut?
+                        </p>
+                      </div>
                     </div>
-                </div>
+                  </div>
+               
 
                 <!-- Map -->
                 <div class="map-section">
@@ -117,49 +145,69 @@
                 </div>
 
                  <!-- The great migration left last section -->
-                <div>
-                    <div class="day-section-outer">
-                        <h3 class="day-section-inner">> inclusion</h3>
-                        <div>
+                 <div>
+                    <div class="accordion">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Inclusion</h3>
+                        </div>
+                        <div class="accordion-content">
                             <ul>
-                                <li>-1 Night stay in 4 Point at Nairabi</li>
-                                <li>-5 Nights stay at Masai Mara</li>
-                                <li>-Two-way Surface Transfer from Nairobi to Masai Mara</li>
+                                <li>- 1 Night stay in 4 Point at Nairobi</li>
+                                <li>- 5 Nights stay at Masai Mara</li>
+                                <li>- Two-way Surface Transfer from Nairobi to Masai Mara</li>
                                 <li>- All Meals</li>
-                                <li>- 4X4 Landcruiser Safaries as per itinerary</li>
+                                <li>- 4X4 Landcruiser Safaris as per itinerary</li>
                                 <li>- Expert Jehan Numa Expedition Naturalist</li>
                             </ul>
                         </div>
                     </div>
-
-                    <div class="day-section-outer">
-                        <h3 class="day-section-inner">> Exclusions</h3>
-                        <!-- <div>
+                    
+        
+                    <div class="accordion">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Exclusions</h3>
+                        </div>
+                        <div class="accordion-content">
                             <ul>
-                                <li>-1 Night stay in 4 Point at Nairabi</li>
-                                <li>-5 Nights stay at Masai Mara</li>
-                                <li>-Two-way Surface Transfer from Nairobi to Masai Mara</li>
+                                <li>- 1 Night stay in 4 Point at Nairobi</li>
+                                <li>- 5 Nights stay at Masai Mara</li>
+                                <li>- Two-way Surface Transfer from Nairobi to Masai Mara</li>
                                 <li>- All Meals</li>
-                                <li>- 4X4 Landcruiser Safaries as per itinerary</li>
+                                <li>- 4X4 Landcruiser Safaris as per itinerary</li>
                                 <li>- Expert Jehan Numa Expedition Naturalist</li>
                             </ul>
-                        </div> -->
+                        </div>
                     </div>
-
-                    <div class="day-section-outer">
-                        <h3 class="day-section-inner">> notes</h3>
-                        <!-- <div>
+                    
+                    <div class="accordion">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Notes</h3>
+                        </div>
+                        <div class="accordion-content">
                             <ul>
-                                <li>-1 Night stay in 4 Point at Nairabi</li>
-                                <li>-5 Nights stay at Masai Mara</li>
-                                <li>-Two-way Surface Transfer from Nairobi to Masai Mara</li>
-                                <li>- All Meals</li>
-                                <li>- 4X4 Landcruiser Safaries as per itinerary</li>
-                                <li>- Expert Jehan Numa Expedition Naturalist</li>
+                                <li>- Important travel details and guidelines</li>
+                                <li>- Packing list recommendations</li>
+                                <li>- Safety instructions</li>
+                                <li>- Contact details for emergencies</li>
                             </ul>
-                        </div> -->
+                        </div>
                     </div>
-                </div>
+                    
+                    <div class="accordion">
+                        <div class="accordion-header" onclick="toggleAccordion(this)">
+                            <h3>Notes</h3>
+                        </div>
+                        <div class="accordion-content">
+                            <ul>
+                                <li>- Additional information for travelers</li>
+                                <li>- Weather expectations</li>
+                                <li>- Local customs and etiquette</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                  </div>
+                
             </div>
 
             <!-- The Great Migration Right section -->

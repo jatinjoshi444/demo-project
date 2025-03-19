@@ -94,11 +94,13 @@ a {
     }
 }
 
- /* Navbar end */
-
 
  /* Header section */
  header {
+   background: url(/assets/background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -117,6 +119,7 @@ a {
     font-weight: 400;
  }
 
+ /* header end */
  .the-great-migration {
     padding: 0rem 5vw;
  }
@@ -154,31 +157,36 @@ a {
  .overview-section h3 {
     font-size: 1.5rem;
  }
-/* 
- Day section */
-  .day-section-main {
-    margin: 1rem 0rem;
-    border-bottom: 1px solid black;
- }
 
- .day-section-outer {
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 0.5rem 0rem;
-    margin: 1rem 0rem;
- }
+ /* day section */
 
- .day-section-inner {
-    justify-content: space-between;
-    border-bottom: 1px solid black;
-    border-radius: 10px;
-    padding: 1rem 0.5rem;
- }
+ .accordion {
+   width: 100%;
+   margin-bottom: 10px; 
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   overflow: hidden;
+}
 
- .day-section-outer p {
-    padding: 0rem 0.5rem;
- } */
+.accordion-header {
+   background: slategray;
+   color:white;
+   padding: 10px;
+   cursor: pointer;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
 
+.accordion-content {
+   display: none;
+   padding: 10px;
+   border-top: 1px solid #ccc;
+}
+
+.active .accordion-content {
+   display: block;
+}
 
  /* end day section */
 
